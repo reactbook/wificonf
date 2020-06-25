@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+body{
+  width:90%;
+  max-width:550px;
+  margin:0 auto;
+  text-align:center;
+}
+.logo{
+  margin:0 auto;
+  width:100px;
+  height:100px;
+}
+pre{
+  background: #332f2f;
+  text-align: left;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 400px) {
+  pre{
+    overflow: scroll;
+  }
+}
